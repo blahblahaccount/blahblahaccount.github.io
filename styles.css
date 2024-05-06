@@ -1,1 +1,72 @@
+h1 {
+    text-align: center;
+    color: #bbb;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #082f, #099f);
+    padding: 10px;
+    text-shadow: 4px 4px #1a1a1a;
+    border-radius: 4px;
+    user-select: none;
+}
 
+body {
+    background-color: #1a1a1a;
+}
+
+#bottomBtns {
+    background-color: #404040;
+    padding: 10px;
+    position: fixed;
+    width: 120%;
+    left: -10px;
+    height: 10%;
+    bottom: 0px;
+    text-align: center;
+    border-style: dashed;
+}
+
+#bottomBtns #homeBtn {
+    position: absolute;
+    left: 30%;
+    transform: translateX(-50%);
+    display: flex;
+    cursor: pointer;
+}
+
+#bottomBtns #gamesBtn {
+    position: absolute;
+    left: 40%;
+    transform: translateX(-50%);
+    display: flex;
+    cursor: pointer;
+}
+
+#bottomBtns #updatesBtn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    cursor: pointer;
+}
+
+#para {
+    color: #bbb;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: auto;
+    display: inline;
+    font-style: italic;
+}
+
+.links {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+}
+
+.links a {
+    color: aqua;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
